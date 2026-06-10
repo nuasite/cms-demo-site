@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content'
+import { Image } from 'astro:assets'
+import Base from '../../layouts/Base.astro'
+
+export async function getStaticPaths() {
+	const posts = await getCollection('blog')
+	return posts.map((post) => ({ params: { slug: post.id }, props: { post } }))
+}
+
+const { post } = Astro.props
+const { Content } = await post.render()
+---
+
+<Base title={post.data.title}>
+	<p><a href="/">← Home</a></p>
+	<h1>{post.data.title}</h1>
+	{post.data.cover && <Image src={post.data.cover} alt={post.data.title} width={820} height={420} />}
+	{post.data.perex && <p><em>{post.data.perex}</em></p>}
+	<Content />
+</Base>

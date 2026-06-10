@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content'
+import Base from '../layouts/Base.astro'
+
+const posts = await getCollection('blog')
+const products = await getCollection('product')
+---
+
+<Base title="CMS Demo Site">
+	<h1>CMS Demo Site</h1>
+	<p>A demo content model for exercising the Nua CMS.</p>
+
+	<h2>Blog</h2>
+	{posts.map((post) => (
+		<div class="card">
+			<a href={`/blog/${post.id}`}>{post.data.title}</a>
+			{post.data.perex && <p>{post.data.perex}</p>}
+		</div>
+	))}
+
+	<h2>Products</h2>
+	{products.map((product) => (
+		<div class="card">
+			<a href={`/products/${product.id}`}>{product.data.title}</a>
+			{product.data.price != null && <span> — €{product.data.price}</span>}
+		</div>
+	))}
+</Base>
