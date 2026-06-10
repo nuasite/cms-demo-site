@@ -1,0 +1,26 @@
+title: SwimPro Pool
+slug: swim-pro-pool
+category: pools
+hero: ../../assets/products/product-3.webp
+gallery:
+  - ../../assets/products/product-1.webp
+summary: An above-ground training pool with adjustable counter-current.
+description: |
+  ## SwimPro Pool
+
+  Train year-round with an **adjustable counter-current** and an integrated
+  heat pump.
+price: 320000
+salePrice: 0
+sku: SP-PRO
+inStock: false
+featured: true
+specs:
+  - label: Length
+    value: 4.5 m
+tags:
+  - pool
+  - training
+seo:
+  metaTitle: SwimPro Pool
+  metaDescription: Above-ground training pool with counter-current.

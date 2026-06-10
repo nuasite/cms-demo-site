@@ -1,0 +1,7 @@
+question: Do you handle installation?
+answer: |
+  Yes — installation can be added to any order. See our
+  [installation guide](https://example.com/install) for site requirements.
+category: general
+order: 3
+published: false

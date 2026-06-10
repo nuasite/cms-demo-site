@@ -1,0 +1,43 @@
+title: Aqua Spa 5000
+slug: aqua-spa-5000
+category: hot-tubs
+hero: ../../assets/products/product-1.webp
+gallery:
+  - ../../assets/products/product-2.webp
+  - ../../assets/products/product-3.webp
+summary: >-
+  A spacious five-seat hot tub with a counter-current swim channel and an
+  independent control system for the spa and pool zones.
+description: |
+  ## Overview
+
+  The **Aqua Spa 5000** combines a relaxation spa and a swim pool in one unit,
+  each with its own temperature control (25 °C – 40 °C).
+
+  ### Highlights
+
+  - Counter-current swim jets
+  - Dual independent heating circuits
+  - PVC body with thermal cover
+
+  > Total dimensions: 5800 × 2200 × 1360 mm
+
+  See the [installation guide](https://example.com/install) for site prep.
+price: 489000
+salePrice: 459000
+sku: AQ-5000
+inStock: true
+featured: true
+specs:
+  - label: Seats
+    value: "5"
+  - label: Dimensions
+    value: 5800 × 2200 × 1360 mm
+  - label: Heater
+    value: 3 kW
+tags:
+  - bestseller
+  - swim-spa
+seo:
+  metaTitle: Aqua Spa 5000 — swim spa
+  metaDescription: Five-seat swim spa with counter-current jets.

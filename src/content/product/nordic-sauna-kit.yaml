@@ -1,0 +1,30 @@
+title: Nordic Sauna Kit
+slug: nordic-sauna-kit
+category: saunas
+hero: ../../assets/products/product-2.webp
+gallery: []
+summary: A compact outdoor sauna kit for two to four people, delivered flat-packed.
+description: |
+  ## Nordic Sauna Kit
+
+  A self-assembly outdoor sauna in spruce, with an electric heater and a
+  toughened-glass door.
+
+  - 2–4 person capacity
+  - 6 kW electric heater included
+  - Flat-packed delivery
+price: 159000
+salePrice: 0
+sku: SK-200
+inStock: true
+featured: false
+specs:
+  - label: Capacity
+    value: 2–4 people
+  - label: Heater
+    value: 6 kW
+tags:
+  - sauna
+seo:
+  metaTitle: Nordic Sauna Kit
+  metaDescription: Flat-packed outdoor sauna for 2–4 people.
