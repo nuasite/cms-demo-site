@@ -5,7 +5,9 @@ import Base from '../../layouts/Base.astro'
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog')
-	return posts.map((post) => ({ params: { slug: post.id }, props: { post } }))
+	// `post.id` includes the file extension (Astro 4 content API) — strip it so the
+	// URL is `/blog/<slug>`, matching the CMS entry slug (not `/blog/<slug>.md`).
+	return posts.map((post) => ({ params: { slug: post.id.replace(/\.(md|mdx)$/, '') }, props: { post } }))
 }
 
 const { post } = Astro.props

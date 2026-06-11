@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content'
+import { Image } from '@nuasite/components'
+import Base from '../../layouts/Base.astro'
+
+export async function getStaticPaths() {
+	const authors = await getCollection('authors')
+	return authors.map((author) => ({ params: { slug: author.id }, props: { author } }))
+}
+
+const { author } = Astro.props
+const { data } = author
+---
+
+<Base title={data.name}>
+	<p><a href="/">← Home</a></p>
+	{data.avatar && <Image src={data.avatar} alt={data.name} widths={[160, 320]} sizes="160px" />}
+	<h1>{data.name}</h1>
+	{data.role && <p>{data.role}</p>}
+	{data.bio && <p>{data.bio}</p>}
+	{data.email && <p><a href={`mailto:${data.email}`}>{data.email}</a></p>}
+	{data.website && <p><a href={data.website}>{data.website}</a></p>}
+</Base>

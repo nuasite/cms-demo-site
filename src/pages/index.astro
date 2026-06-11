@@ -13,7 +13,7 @@ const products = await getCollection('product')
 	<h2>Blog</h2>
 	{posts.map((post) => (
 		<div class="card">
-			<a href={`/blog/${post.id}`}>{post.data.title}</a>
+			<a href={`/blog/${post.id.replace(/\.(md|mdx)$/, '')}`}>{post.data.title}</a>
 			{post.data.perex && <p>{post.data.perex}</p>}
 		</div>
 	))}

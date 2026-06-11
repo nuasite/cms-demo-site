@@ -1,0 +1,21 @@
+---
+import { getCollection } from 'astro:content'
+import Base from '../layouts/Base.astro'
+
+// FAQ is a collection rendered on a single shared page — every item lives at /faq,
+// not at its own URL. Published items, ordered by `order`.
+const faqs = (await getCollection('faq'))
+	.filter((entry) => entry.data.published)
+	.sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0))
+---
+
+<Base title="FAQ">
+	<p><a href="/">← Home</a></p>
+	<h1>Frequently asked questions</h1>
+	{faqs.map((faq) => (
+		<div class="card">
+			<h2>{faq.data.question}</h2>
+			<p>{faq.data.answer}</p>
+		</div>
+	))}
+</Base>
