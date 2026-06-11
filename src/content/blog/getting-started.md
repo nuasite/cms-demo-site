@@ -1,7 +1,7 @@
 ---
 title: Getting started with your home spa
 perex: A friendly intro to choosing, installing and maintaining a home spa.
-cover: ../../assets/blog/cover-1.webp
+cover: /assets/blog/cover-1.webp
 author: anna-novak
 category: guides
 tags:

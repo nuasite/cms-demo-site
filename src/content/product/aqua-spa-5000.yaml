@@ -1,10 +1,10 @@
 title: Aqua Spa 5000
 slug: aqua-spa-5000
 category: hot-tubs
-hero: ../../assets/products/product-1.webp
+hero: /assets/products/product-1.webp
 gallery:
-  - ../../assets/products/product-2.webp
-  - ../../assets/products/product-3.webp
+  - /assets/products/product-2.webp
+  - /assets/products/product-3.webp
 summary: >-
   A spacious five-seat hot tub with a counter-current swim channel and an
   independent control system for the spa and pool zones.

@@ -1,14 +1,15 @@
 {
-	"name": "cms-demo-site",
-	"type": "module",
-	"private": true,
-	"scripts": {
-		"dev": "astro dev",
-		"build": "astro build",
-		"preview": "astro preview"
-	},
-	"dependencies": {
-		"@nuasite/cms": "next",
-		"astro": "^4.16.0"
-	}
+  "name": "cms-demo-site",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@nuasite/cms": "next",
+    "@nuasite/components": "next",
+    "astro": "^4.16.0"
+  }
 }

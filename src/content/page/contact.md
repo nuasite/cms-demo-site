@@ -1,6 +1,6 @@
 ---
 title: Contact
-heroImage: ../../assets/pages/about-hero.webp
+heroImage: /assets/pages/about-hero.webp
 seo:
   metaTitle: Contact us
   metaDescription: Get in touch with our team.

@@ -1,6 +1,6 @@
 ---
 title: About us
-heroImage: ../../assets/pages/about-hero.webp
+heroImage: /assets/pages/about-hero.webp
 seo:
   metaTitle: About us
   metaDescription: Learn about our team and mission.

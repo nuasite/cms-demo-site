@@ -1,7 +1,7 @@
 ---
 title: Winter care for your spa
 perex: Keep your spa running smoothly through the cold months.
-cover: ../../assets/blog/cover-1.webp
+cover: /assets/blog/cover-1.webp
 author: anna-novak
 category: stories
 tags:

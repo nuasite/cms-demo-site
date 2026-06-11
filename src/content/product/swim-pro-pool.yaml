@@ -1,9 +1,9 @@
 title: SwimPro Pool
 slug: swim-pro-pool
 category: pools
-hero: ../../assets/products/product-3.webp
+hero: /assets/products/product-3.webp
 gallery:
-  - ../../assets/products/product-1.webp
+  - /assets/products/product-1.webp
 summary: An above-ground training pool with adjustable counter-current.
 description: |
   ## SwimPro Pool

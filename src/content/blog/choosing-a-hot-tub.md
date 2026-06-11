@@ -1,7 +1,7 @@
 ---
 title: How to choose a hot tub
 perex: Seats, jets, insulation and running costs — what actually matters.
-cover: ../../assets/blog/cover-2.webp
+cover: /assets/blog/cover-2.webp
 author: ben-carter
 category: guides
 tags:
