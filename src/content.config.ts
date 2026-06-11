@@ -33,11 +33,11 @@ const authors = defineCollection({
 // --- blog: markdown collection (file body + frontmatter) ---
 const blog = defineCollection({
 	loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
-	schema: ({ image }) =>
+	schema: () =>
 		n.object({
 			title: n.text({ label: 'Title' }),
 			perex: n.textarea({ label: 'Perex', rows: 2 }),
-			cover: image(),
+			cover: n.image(),
 			author: reference('authors'),
 			category: n.enum(['news', 'guides', 'stories']),
 			tags: n.array(n.string()),
@@ -102,10 +102,10 @@ const faq = defineCollection({
 // --- page: markdown collection (generic site pages) ---
 const page = defineCollection({
 	loader: glob({ pattern: '**/*.md', base: './src/content/page' }),
-	schema: ({ image }) =>
+	schema: () =>
 		n.object({
 			title: n.text(),
-			heroImage: image(),
+			heroImage: n.image(),
 			seo: n.object({
 				metaTitle: n.text(),
 				metaDescription: n.textarea(),
