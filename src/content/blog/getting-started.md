@@ -1,5 +1,5 @@
 ---
-title: Getting started with your home spac
+title: Getting started with your home spa
 perex: A friendly intro to choosing, installing and maintaining a home spa.
 cover: /assets/blog/cover-1.webp
 author: anna-novak
@@ -7,13 +7,14 @@ category: guides
 tags:
   - beginners
   - setup
-publishedAt: '2026-05-12'
+publishedAt: 2026-05-12
 readingMinutes: 6
 draft: false
 seo:
-  metaTitle: Getting started with your home spac
+  metaTitle: Getting started with your home spa
   metaDescription: A beginner-friendly guide to home spas.
 ---
+
 ## Welcome
 
 Setting up a home spa is easier than you think. This guide walks through the
